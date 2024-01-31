@@ -30,6 +30,3 @@ Use the sliders in the Tkinter window to adjust parameters and initial condition
 ## Contributing
 Your contributions to enhance or expand this project are highly appreciated. Feel free to fork the repository and submit pull requests with your improvements.
 
-## License
-This project is distributed under the MIT License - see the LICENSE file for detailed information.
-
