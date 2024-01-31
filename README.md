@@ -13,7 +13,7 @@ The "Interactive System of Three Coupled Oscillators" is a specialized education
 Ensure Python is installed on your system to run this simulation. You can set up the project by cloning the repository and installing the required dependencies:
 
 ```bash
-git clone
+git clone https://github.com/1Basile/Three-Coupled-Oscillators-Interactive-Sim.git
 cd Three-Coupled-Oscillators-Interactive-Sim
 pip install -r requirements.txt
 ```
