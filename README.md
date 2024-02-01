@@ -10,14 +10,57 @@ The "Interactive System of Three Coupled Oscillators" is a specialized education
 - Detailed help section to guide users on interacting with the simulation effectively.
 
 ## Installation
-Ensure Python is installed on your system to run this simulation. You can set up the project by cloning the repository and installing the required dependencies:
+Ensure Python is installed on your system to run this simulation. It is recommended to use a virtual environment for running this project to avoid conflicts with other packages. 
+You can set up the project by following these steps:
 
+- **Using venv** (Recommended for users without Conda)
+1. Clone the repository:
 ```bash
 git clone https://github.com/1Basile/Three-Coupled-Oscillators-Interactive-Sim.git
+```
+2. Change into the project directory:
+```bash
 cd Three-Coupled-Oscillators-Interactive-Sim
+```
+3. Create a virtual environment:
+```bash
+python -m venv venv
+```
+4. Activate the virtual environment:
+  - On Windows:
+    ```bash
+    .\venv\Scripts\activate
+    ```
+  - On Unix or MacOS:
+    ```bash
+    source venv/bin/activate
+    ```
+    
+5. Install the required dependencies:
+```bash
 pip install -r requirements.txt
 ```
-
+- **Using Conda**
+1. Clone the repository:
+```bash
+git clone https://github.com/1Basile/Three-Coupled-Oscillators-Interactive-Sim.git
+```
+2. Change into the project directory:
+```bash
+cd Three-Coupled-Oscillators-Interactive-Sim
+```
+3. Create a Conda environment:
+```bash
+conda create --name myenv python=3.x
+```
+4. Activate the Conda environment:
+```bash
+conda activate myenv
+```
+6. Install the required dependencies. If available in Conda, prefer Conda packages for better compatibility:
+```bash
+while read requirement; do conda install --yes $requirement || pip install $requirement; done < requirements.txt
+```
 
 ## Usage
 Execute the simulation with the following command:
